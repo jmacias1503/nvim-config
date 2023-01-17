@@ -1,1 +1,1 @@
-require('jmacias.settings')
+require("jmacias")
