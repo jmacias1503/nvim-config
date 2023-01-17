@@ -1,4 +1,6 @@
--- Atajos locales
+--Llamado a remapeo de teclas
+require("jmacias.remap")
+--- Atajos locales
 local g = vim.g
 local o = vim.o
 
