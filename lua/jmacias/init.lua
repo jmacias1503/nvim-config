@@ -20,3 +20,9 @@ o.smartcase = true
 
 -- Comunicacion entre texto copiado y neovim
 o.clipboard = 'unnamedplus'
+
+-- Indentacion de 4 espacios
+o.tabstop = 4
+o.softtabstop = 4
+o.shiftwidth = 4
+o.expandtab = true
