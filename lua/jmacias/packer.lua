@@ -47,6 +47,5 @@ return require('packer').startup(function(use)
 	  }
   }
 
- use { "williamboman/mason.nvim" }
 
 end)
