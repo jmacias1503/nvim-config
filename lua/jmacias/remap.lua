@@ -13,3 +13,7 @@ vim.keymap.set("n", "<leader>Y", [["+Y]])
 
 -- Reemplazar palabra dentro del archivo
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+
+--Creacion y cambio de tabs
+vim.keymap.set("n", "<leader>tn", vim.cmd.tabNext)
+vim.keymap.set("n", "<leader>nt", vim.cmd.tabnew)
