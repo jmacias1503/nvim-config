@@ -7,12 +7,14 @@ return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
 
+-- Telescope plugin
   use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.1',
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
+-- Gruvbox Theme
   use({ 
 	  'ellisonleao/gruvbox.nvim', 
 	  as = 'gruvbox',
@@ -21,10 +23,13 @@ return require('packer').startup(function(use)
 	  end
   })
 
+-- Treesitter formatting
   use( 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
+-- UndoTree for keeping record of changes in a file
   use('mbbill/undotree')
 
+-- LSP for an IDE-like experience
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  requires = {
@@ -47,5 +52,7 @@ return require('packer').startup(function(use)
 	  }
   }
 
+-- Vimtex for .Tex support
+  use 'lervag/vimtex'
 
 end)
