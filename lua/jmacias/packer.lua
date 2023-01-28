@@ -52,9 +52,6 @@ return require('packer').startup(function(use)
         }
     }
 
-    -- Vimtex for Tex support
-    use 'lervag/vimtex'
-
     use 'vim-airline/vim-airline'
     use 'vim-airline/vim-airline-themes'
 
