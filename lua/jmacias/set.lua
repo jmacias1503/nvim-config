@@ -33,3 +33,6 @@ o.smartindent = true
 
 --Colores de la terminal
 o.termguicolors = true
+
+-- Nose pa q sirve xd
+vim.opt.updatetime = 50
