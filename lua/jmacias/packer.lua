@@ -66,4 +66,6 @@ use {
   requires = {'nvim-tree/nvim-web-devicons'}
 }
 
+use 'preservim/nerdtree'
+
 end)
