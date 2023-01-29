@@ -11,7 +11,7 @@ o.cursorline = true
 o.guicursor = ""
 
 -- Numero de lineas arriba y abajo del cursor
-o.scrolloff = 21
+o.scrolloff = 18
 
 -- Busqueda de texto dentro de un archivo
 o.ignorecase = true
