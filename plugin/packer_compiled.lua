@@ -105,7 +105,7 @@ _G.packer_plugins = {
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
   ["dashboard-nvim"] = {
-    config = { "\27LJ\2\n;\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14dashboard\frequire\0" },
+    config = { "\27LJ\2\n�\2\0\0\6\0\v\0\0196\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0004\4\0\0=\4\5\0034\4\3\0005\5\6\0>\5\1\0045\5\a\0>\5\2\4=\4\b\0034\4\0\0=\4\t\3=\3\n\2B\0\2\1K\0\1\0\vconfig\vfooter\vcenter\1\0\5\vkeymap\fSPC f d\bkey\6f\tdesc\18Find Dotfiles\vaction\17lua print(3)\ticon\t \1\0\b\vkeymap\fSPC f f\bkey\6b\tdesc\25Find File           \ticon\t \vkey_hl\vNumber\fdesc_hl\vString\ficon_hl\nTitle\vaction\17lua print(2)\vheader\1\0\0\1\0\1\ntheme\tdoom\nsetup\14dashboard\frequire\0" },
     loaded = false,
     needs_bufread = false,
     only_cond = false,
