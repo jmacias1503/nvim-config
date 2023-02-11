@@ -17,3 +17,9 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 -- Creation and tab movement
 vim.keymap.set("n", "<leader>tn", vim.cmd.tabNext)
 vim.keymap.set("n", "<leader>nt", vim.cmd.tabnew)
+
+-- Jump to the dashboard homepage
+vim.keymap.set("n", "<leader>db", vim.cmd.Dashboard)
+
+-- Open NERDTree
+vim.keymap.set("n", "<leader>ef", vim.cmd.NERDTreeToggle)

@@ -69,4 +69,8 @@ use {
 --NerdTree file manager
 use 'preservim/nerdtree'
 
+-- Indenting lines
+
+use "lukas-reineke/indent-blankline.nvim"
+
 end)
