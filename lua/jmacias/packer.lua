@@ -55,24 +55,27 @@ return require('packer').startup(function(use)
     use 'vim-airline/vim-airline'
     use 'vim-airline/vim-airline-themes'
 
-use {
-  'glepnir/dashboard-nvim',
-  event = 'VimEnter',
-  config = function()
-    require('dashboard').setup {
-      -- config
+    use {
+        'glepnir/dashboard-nvim',
+        event = 'VimEnter',
+        config = function()
+            require('dashboard').setup {
+                -- config
+            }
+        end,
+        requires = {'nvim-tree/nvim-web-devicons'}
     }
-  end,
-  requires = {'nvim-tree/nvim-web-devicons'}
-}
 
---NerdTree file manager
-use 'preservim/nerdtree'
+    --NerdTree file manager
+    use 'preservim/nerdtree'
 
--- Indenting lines
-use "lukas-reineke/indent-blankline.nvim"
+    -- Indenting lines
+    use "lukas-reineke/indent-blankline.nvim"
 
--- Hex preview colors
-use 'norcalli/nvim-colorizer.lua'
+    -- Hex preview colors
+
+    use {
+        'norcalli/nvim-colorizer.lua'
+    }
 
 end)
