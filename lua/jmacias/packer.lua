@@ -70,7 +70,9 @@ use {
 use 'preservim/nerdtree'
 
 -- Indenting lines
-
 use "lukas-reineke/indent-blankline.nvim"
+
+-- Hex preview colors
+use 'norcalli/nvim-colorizer.lua'
 
 end)
