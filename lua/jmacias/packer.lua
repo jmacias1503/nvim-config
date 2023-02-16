@@ -15,8 +15,8 @@ return require('packer').startup(function(use)
     }
 
     -- Gruvbox Theme
-    use({ 
-        'ellisonleao/gruvbox.nvim', 
+    use({
+        'ellisonleao/gruvbox.nvim',
         as = 'gruvbox',
         config = function()
             vim.cmd('colorscheme gruvbox')
@@ -24,7 +24,8 @@ return require('packer').startup(function(use)
     })
 
     -- Treesitter formatting
-    use( 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+    use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+    use("nvim-treesitter/playground")
 
     -- UndoTree for keeping record of changes in a file
     use('mbbill/undotree')
@@ -153,9 +154,11 @@ return require('packer').startup(function(use)
     use {'nvim-orgmode/orgmode', config = function()
         require('orgmode').setup_ts_grammar{}
     end
-    }
+}
 
-    -- org language for tree sitter
-    use 'milisims/tree-sitter-org'
+-- org language for tree sitter
+use{
+    'milisims/tree-sitter-org'
+}
 
 end)

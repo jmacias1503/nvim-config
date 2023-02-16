@@ -1,3 +1,12 @@
+local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
+parser_config.org = {
+    install_info = {
+        url = 'https://github.com/milisims/tree-sitter-org',
+        revision = 'main',
+        files = { 'src/parser.c', 'src/scanner.cc' },
+    },
+    filetype = 'org',
+}
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all" (the four listed parsers should always be installed)
   ensure_installed = { "c","bash", "ruby", "go", "javascript", "java", "rust", "cpp", "html", "css", "markdown", "python", "yaml", "lua", "vim", "help", "json" },
