@@ -149,4 +149,10 @@ return require('packer').startup(function(use)
     -- Icons for plugins
     use 'ryanoasis/vim-devicons'
 
+    -- Orgmode for neovim
+    use {'nvim-orgmode/orgmode', config = function()
+        require('orgmode').setup_ts_grammar{}
+    end
+}
+
 end)
