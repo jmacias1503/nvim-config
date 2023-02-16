@@ -153,6 +153,9 @@ return require('packer').startup(function(use)
     use {'nvim-orgmode/orgmode', config = function()
         require('orgmode').setup_ts_grammar{}
     end
-}
+    }
+
+    -- org language for tree sitter
+    use 'milisims/tree-sitter-org'
 
 end)
