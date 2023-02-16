@@ -95,12 +95,12 @@ return require('packer').startup(function(use)
                             action = 'Telescope'
                         },
                         {
-                            icon = '',
+                            icon = ' ',
                             icon_hl = 'Title',
                             desc = 'Search File',
                             desc_hl = 'String',
                             key = 'n',
-                            keymap = 'SPC n t',
+                            keymap = 'SPC e f',
                             key_hl = 'Number',
                             action = 'NERDTreeToggle',
                         },
