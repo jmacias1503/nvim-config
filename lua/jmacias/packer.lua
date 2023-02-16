@@ -85,21 +85,14 @@ return require('packer').startup(function(use)
                     }, --your header
                     center = {
                         {
-                            icon = ' ',
+                            icon = ' ',
                             icon_hl = 'Title',
-                            desc = 'Find File           ',
+                            desc = 'Fuzzy finder',
                             desc_hl = 'String',
-                            key = 'b',
-                            keymap = 'SPC f f',
-                            key_hl = 'Number',
-                            action = 'lua print(2)'
-                        },
-                        {
-                            icon = ' ',
-                            desc = 'Find Dotfiles',
                             key = 'f',
-                            keymap = 'SPC f d',
-                            action = 'lua print(3)'
+                            keymap = 'SPC t s',
+                            key_hl = 'Number',
+                            action = 'Telescope'
                         },
                     },
                     footer = {
@@ -127,6 +120,7 @@ return require('packer').startup(function(use)
 
             }
         end,
+
         requires = {'nvim-tree/nvim-web-devicons'}
     }
 
