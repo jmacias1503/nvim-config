@@ -146,4 +146,7 @@ return require('packer').startup(function(use)
         'norcalli/nvim-colorizer.lua'
     }
 
+    -- Icons for plugins
+    use 'ryanoasis/vim-devicons'
+
 end)
