@@ -156,9 +156,4 @@ return require('packer').startup(function(use)
     end
 }
 
--- org language for tree sitter
-use{
-    'milisims/tree-sitter-org'
-}
-
 end)
