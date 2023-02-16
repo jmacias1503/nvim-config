@@ -94,6 +94,16 @@ return require('packer').startup(function(use)
                             key_hl = 'Number',
                             action = 'Telescope'
                         },
+                        {
+                            icon = '',
+                            icon_hl = 'Title',
+                            desc = 'Search File',
+                            desc_hl = 'String',
+                            key = 'n',
+                            keymap = 'SPC n t',
+                            key_hl = 'Number',
+                            action = 'NERDTreeToggle',
+                        },
                     },
                     footer = {
                         [[                 ▄█▄                 ]],
