@@ -23,3 +23,6 @@ vim.keymap.set("n", "<leader>db", vim.cmd.Dashboard)
 
 -- Open NERDTree
 vim.keymap.set("n", "<leader>ef", vim.cmd.NERDTreeToggle)
+
+-- Compile a file (mostly common in Markdown
+vim.keymap.set("n", "<leader>cm", [[:!comp]] )
