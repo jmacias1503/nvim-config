@@ -156,4 +156,7 @@ return require('packer').startup(function(use)
     end
 }
 
+-- Now the real orgmode for neovim
+use 'dhruvasagar/vim-dotoo'
+
 end)
