@@ -39,3 +39,5 @@ vim.opt.updatetime = 50
 
 -- Uso del plugin colorizer de forma automatica
 require 'colorizer'.setup()
+
+o.guifont = 'Hurmit Nerd Font'

@@ -25,4 +25,4 @@ vim.keymap.set("n", "<leader>db", vim.cmd.Dashboard)
 vim.keymap.set("n", "<leader>ef", vim.cmd.NERDTreeToggle)
 
 -- Compile a file (mostly common in Markdown
-vim.keymap.set("n", "<leader>cm", [[:!comp]] )
+vim.keymap.set("n", "<leader>cm", [[:!pandoc <C-r><C-w>.md -o <C-r><C-w>.pdf<Left><Left><Left><Left><Left><Left>]] )
