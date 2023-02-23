@@ -86,6 +86,16 @@ return require('packer').startup(function(use)
                     }, --your header
                     center = {
                         {
+                            icon = ' ',
+                            icon_hl = 'Title',
+                            desc = 'Open Agenda',
+                            desc_hl = 'String',
+                            key = 'g',
+                            keymap = 'SPC o a',
+                            key_hl = 'Number',
+                            action = 'Telescope'
+                        },
+                        {
                             icon = ' ',
                             icon_hl = 'Title',
                             desc = 'Fuzzy finder',
@@ -105,6 +115,17 @@ return require('packer').startup(function(use)
                             key_hl = 'Number',
                             action = 'NERDTreeToggle',
                         },
+                        {
+
+                            icon = ' ',
+                            icon_hl = 'Title',
+                            desc = 'Find GREP',
+                            desc_hl = 'String',
+                            key = 'g',
+                            keymap = 'SPC f g',
+                            key_hl = 'Number',
+                            action = 'Telescope'
+                        }
                     },
                     footer = {
                         [[                 ▄█▄                 ]],
@@ -153,10 +174,16 @@ return require('packer').startup(function(use)
     -- Orgmode for neovim
     use {'nvim-orgmode/orgmode', config = function()
         require('orgmode').setup_ts_grammar{}
+        require('orgmode').setup{
+            org_agenda_files = {'~/Cloud/Google-Drive/Obsidian/Second Brain/org/*'},
+            org_default_notes_file = '~/Cloud/Google-Drive/default.org',
+        }
     end
 }
-
--- Now the real orgmode for neovim
-use 'dhruvasagar/vim-dotoo'
+-- Autopairs
+use {
+	"windwp/nvim-autopairs",
+    config = function() require("nvim-autopairs").setup {} end
+}
 
 end)
