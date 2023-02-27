@@ -157,7 +157,9 @@ return require('packer').startup(function(use)
     }
 
     --NerdTree file manager
-    use 'preservim/nerdtree'
+    use {
+        'preservim/nerdtree',
+    }
 
     -- Indenting lines
     use "lukas-reineke/indent-blankline.nvim"
@@ -185,5 +187,8 @@ use {
 	"windwp/nvim-autopairs",
     config = function() require("nvim-autopairs").setup {} end
 }
+
+-- Vimtex
+use 'lervag/vimtex'
 
 end)
