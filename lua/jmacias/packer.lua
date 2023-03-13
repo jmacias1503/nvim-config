@@ -95,15 +95,15 @@ return require('packer').startup(function(use)
                             key_hl = 'Number',
                             action = 'Telescope'
                         },
-                        {
-                            icon = ' ',
+{
+                            icon = ' ',
                             icon_hl = 'Title',
-                            desc = 'Fuzzy finder',
+                            desc = 'Open diary',
                             desc_hl = 'String',
-                            key = 'f',
-                            keymap = 'SPC t s',
+                            key = 'd',
+                            keymap = 'SPC e f',
                             key_hl = 'Number',
-                            action = 'Telescope'
+                            action = 'e /home/jmacias8075/Documents/aburrido-diario/aburrido-diario.tex',
                         },
                         {
                             icon = ' ',
@@ -114,17 +114,6 @@ return require('packer').startup(function(use)
                             keymap = 'SPC e f',
                             key_hl = 'Number',
                             action = 'NERDTreeToggle',
-                        },
-                        {
-
-                            icon = ' ',
-                            icon_hl = 'Title',
-                            desc = 'Find GREP',
-                            desc_hl = 'String',
-                            key = 'g',
-                            keymap = 'SPC f g',
-                            key_hl = 'Number',
-                            action = 'Telescope'
                         }
                     },
                     footer = {
