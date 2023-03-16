@@ -37,6 +37,7 @@ vim.cmd("syntax on")
 
 -- Nose pa q sirve xd
 vim.opt.updatetime = 50
+vim.cmd("set nocompatible")
 
 -- Uso del plugin colorizer de forma automatica
 require 'colorizer'.setup()
