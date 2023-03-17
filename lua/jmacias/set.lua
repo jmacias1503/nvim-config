@@ -43,3 +43,6 @@ vim.cmd("set nocompatible")
 require 'colorizer'.setup()
 
 o.guifont = 'Hurmit Nerd Font'
+
+-- Coso para plugins?
+vim.cmd("filetype plugin on")
