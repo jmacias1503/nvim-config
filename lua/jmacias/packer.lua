@@ -96,14 +96,14 @@ return require('packer').startup(function(use)
                             action = 'Telescope'
                         },
 {
-                            icon = ' ',
+                            icon = '',
                             icon_hl = 'Title',
-                            desc = 'Open diary',
+                            desc = 'Open wiki',
                             desc_hl = 'String',
                             key = 'd',
-                            keymap = 'SPC e f',
+                            keymap = 'SPC w w',
                             key_hl = 'Number',
-                            action = 'e /home/jmacias8075/Documents/aburrido-diario/aburrido-diario.tex',
+                            action = 'VimwikiIndex',
                         },
                         {
                             icon = ' ',
