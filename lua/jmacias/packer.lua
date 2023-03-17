@@ -203,6 +203,7 @@ use {
     end
 }
 
+use 'preservim/vim-markdown'
 
 
 end)
