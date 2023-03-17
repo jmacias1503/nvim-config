@@ -9,6 +9,7 @@ o.relativenumber = true
 o.signcolumn = 'yes'
 o.cursorline = true
 o.guicursor = ""
+o.conceallevel = 2
 
 -- Numero de lineas arriba y abajo del cursor
 o.scrolloff = 18
