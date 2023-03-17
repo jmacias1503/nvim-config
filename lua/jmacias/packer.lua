@@ -96,7 +96,7 @@ return require('packer').startup(function(use)
                             action = 'Telescope'
                         },
 {
-                            icon = '',
+                            icon = ' ',
                             icon_hl = 'Title',
                             desc = 'Open wiki',
                             desc_hl = 'String',
