@@ -193,6 +193,9 @@ use {
   end
 }
 
+--Vimwiki
+use 'vimwiki/vimwiki'
+
 
 
 end)
