@@ -23,10 +23,10 @@ o.incsearch = true
 -- Comunicacion entre texto copiado y neovim
 o.clipboard = 'unnamedplus'
 
--- Indentacion de 4 espacios
-o.tabstop = 4
-o.softtabstop = 4
-o.shiftwidth = 4
+-- Indentacion de 3 espacios
+o.tabstop = 3
+o.softtabstop = 3
+o.shiftwidth = 3
 o.expandtab = true
 
 -- Indentacion inteligente
