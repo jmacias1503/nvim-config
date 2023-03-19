@@ -202,11 +202,15 @@ use {
     end
 }
 
+-- Conceal para markdown
 use {
     'ixru/nvim-markdown',
     config = function ()
         vim.g.vim_markdown_conceal = 2
     end
 }
+
+-- Debugging adapter protocol
+use 'mfussenegger/nvim-dap'
 
 end)
