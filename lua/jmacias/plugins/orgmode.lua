@@ -1,5 +1,8 @@
 return {
 	'nvim-orgmode/orgmode',
+   dependencies = {
+      'akinsho/org-bullets.nvim',
+   },
 	config = function()
 		require('orgmode').setup_ts_grammar{}
 		require('orgmode').setup{
