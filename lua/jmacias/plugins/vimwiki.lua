@@ -5,5 +5,5 @@ return {
       vim.g.vimwiki_global_ext = 0
    end,
    ft = "markdown",
-   keys = {"<leader>ww"},
+   keys = {{"<leader>ww"}, {"<leader>wi"}},
 }
