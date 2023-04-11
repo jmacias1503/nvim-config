@@ -29,3 +29,5 @@ vim.g.loaded_perl_provider = 0
 
 vim.cmd("set nocompatible")
 vim.cmd("filetype plugin on")
+
+vim.o.mouse = ""
