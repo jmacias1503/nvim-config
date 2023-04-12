@@ -11,5 +11,5 @@ return {
 		}
 	end,
    ft = "org",
-   keys = {"<leader>oa"},
+   keys = { {"<leader>oa"}, {"<leader>oc"} },
 }
