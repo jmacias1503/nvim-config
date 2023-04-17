@@ -14,3 +14,7 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 -- Creation and tab movement
 vim.keymap.set("n", "<leader>tn", vim.cmd.tabNext)
 vim.keymap.set("n", "<leader>nt", vim.cmd.tabnew)
+
+-- Wrapping shortcuts
+vim.keymap.set("n", "<leader>yw", ":set wrap")
+vim.keymap.set("n", "<leader>nw", ":set nowrap")
