@@ -58,14 +58,14 @@ return {
                   action = 'VimwikiIndex',
                },
                {
-                  icon = ' ',
+                  icon = ' ',
                   icon_hl = 'Title',
                   desc = 'Search File',
                   desc_hl = 'String',
                   key = 'n',
-                  keymap = 'SPC e f',
+                  keymap = 'SPC f f',
                   key_hl = 'Number',
-                  action = 'NERDTreeToggle',
+                  action = 'Telescope find_files',
                },
             },
             footer = {
