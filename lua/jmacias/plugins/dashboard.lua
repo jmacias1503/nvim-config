@@ -38,6 +38,16 @@ return {
                   action = 'Telescope'
                },
                {
+                  icon = ' ',
+                  icon_hl = 'Title',
+                  desc = 'Capture',
+                  desc_hl = 'String',
+                  key = 'p',
+                  keymap = 'SPC o c',
+                  key_hl = 'Number',
+                  action = 'Telescope'
+               },
+               {
                   icon = ' ',
                   icon_hl = 'Title',
                   desc = 'Open wiki',
