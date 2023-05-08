@@ -28,7 +28,7 @@ return {
             },
             center = {
                {
-                  icon = ' ',
+                  icon = '   ',
                   icon_hl = 'Title',
                   desc = 'Open Agenda',
                   desc_hl = 'String',
@@ -38,7 +38,7 @@ return {
                   action = 'Telescope'
                },
                {
-                  icon = ' ',
+                  icon = '   ',
                   icon_hl = 'Title',
                   desc = 'Capture',
                   desc_hl = 'String',
@@ -48,7 +48,7 @@ return {
                   action = 'Telescope'
                },
                {
-                  icon = ' ',
+                  icon = '   ',
                   icon_hl = 'Title',
                   desc = 'Open wiki',
                   desc_hl = 'String',
@@ -58,7 +58,7 @@ return {
                   action = 'VimwikiIndex',
                },
                {
-                  icon = ' ',
+                  icon = '   ',
                   icon_hl = 'Title',
                   desc = 'Search File',
                   desc_hl = 'String',
