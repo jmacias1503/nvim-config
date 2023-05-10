@@ -32,4 +32,5 @@ vim.cmd("filetype plugin on")
 
 vim.o.mouse = ""
 
-vim.opt_local.spell = true
+vim.opt.spell = true
+vim.opt.spelllang = 'es_mx'
