@@ -18,3 +18,6 @@ vim.keymap.set("n", "<leader>nt", vim.cmd.tabnew)
 -- Wrapping shortcuts
 vim.keymap.set("n", "<leader>yw", ":set wrap")
 vim.keymap.set("n", "<leader>nw", ":set nowrap")
+
+-- Spell checking (on the go)
+vim.keymap.set({"n", "i"}, "<C-l>", [[<c-g>u<Esc>[s1z=`]a<c-g>u]])
