@@ -6,4 +6,5 @@ return {
    config = function ()
       vim.keymap.set("n", "<leader>ef",  vim.cmd.NERDTreeToggle)
    end,
+   keys = {"<leader>ef"}
 }
