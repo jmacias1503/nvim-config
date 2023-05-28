@@ -34,3 +34,8 @@ vim.o.mouse = ""
 
 vim.opt.spell = true
 vim.opt.spelllang = 'es_mx'
+
+-- GUI settings
+vim.o.guifont = "CaskaydiaCove Nerd Font:h09"
+vim.g.neovide_scale_factor = 0.5
+vim.g.neovide_background_color = "#2e3440"
