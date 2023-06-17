@@ -1,6 +1,5 @@
 return {
    "nvim-treesitter/nvim-treesitter",
-   lazy = true,
    config = function ()
       vim.cmd('TSUpdate')
       local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
