@@ -1,4 +1,4 @@
---return {
+return {
 --   "glepnir/dashboard-nvim",
 --   lazy = false,
 --   config = function ()
@@ -97,4 +97,4 @@
 --   dependencies = {
 --      'nvim-tree/nvim-web-devicons'
 --   }
---}
+}
