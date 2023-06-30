@@ -41,8 +41,9 @@ config = function()
          {name = 'luasnip', keyword_length = 2},
       },
       mapping = {
-         ['<C-f>'] = cmp_action.luasnip_jump_forward(),
-         ['<C-b>'] = cmp_action.luasnip_jump_backward(),
+         ['<Tab>'] = cmp_action.luasnip_jump_forward(),
+         ['<S-Tab>'] = cmp_action.luasnip_jump_backward(),
+         ['<CR>'] = cmp.mapping.confirm({select = true}),
       }
    })
 end
