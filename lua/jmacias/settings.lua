@@ -32,9 +32,6 @@ vim.cmd("filetype plugin on")
 
 vim.o.mouse = ""
 
-vim.opt.spell = true
-vim.opt.spelllang = 'es_mx'
-
 -- GUI settings
 vim.o.guifont = "CaskaydiaCove Nerd Font:h09"
 vim.g.neovide_scale_factor = 0.5

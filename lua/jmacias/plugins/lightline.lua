@@ -1,6 +1,6 @@
 return {
-   'itchyny/lightline.vim',
-   config = function ()
-      vim.g.lightline = {colorscheme = 'nord',}
-   end
+--   'itchyny/lightline.vim',
+--   config = function ()
+--      vim.g.lightline = {colorscheme = 'nord',}
+--   end
 }
