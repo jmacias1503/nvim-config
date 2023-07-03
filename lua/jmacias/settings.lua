@@ -31,8 +31,3 @@ vim.cmd("set nocompatible")
 vim.cmd("filetype plugin on")
 
 vim.o.mouse = ""
-
--- GUI settings
-vim.o.guifont = "CaskaydiaCove Nerd Font:h09"
-vim.g.neovide_scale_factor = 0.5
-vim.g.neovide_background_color = "#2e3440"

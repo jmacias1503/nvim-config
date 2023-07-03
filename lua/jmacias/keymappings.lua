@@ -21,4 +21,4 @@ vim.keymap.set("n", "<leader>nw", ":set nowrap")
 
 -- Spell checking (on the go)
 vim.keymap.set({"n", "i"}, "<C-l>", [[<Esc>[s 1z= A]])
-
+vim.keymap.set("n","<leader>ns", ":set spelllang=")

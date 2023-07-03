@@ -1,7 +1,11 @@
 return {
    "nvim-treesitter/nvim-treesitter",
+   init = function ()
+      require("jmacias.core.utils").lazy_load "nvim-treesitter"
+   end,
+   cmd = { "TSInstall", "TSBufEnable", "TSBufDisable", "TSModuleInfo" },
+   build = ":TSUpdate",
    config = function ()
-      vim.cmd('TSUpdate')
       local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
       parser_config.org = {
          install_info = {
@@ -46,5 +50,5 @@ return {
             additional_vim_regex_highlighting = {'org'},
          },
       }
-   end
+   end,
 }

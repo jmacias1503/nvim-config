@@ -1,12 +1,14 @@
 return {
    'VonHeikemen/lsp-zero.nvim',
    branch = 'v2.x',
+   event = "InsertEnter",
    dependencies = {
       -- LSP Support
       {'neovim/nvim-lspconfig'},             -- Required
       {                                      -- Optional
       'williamboman/mason.nvim',
       build = ':MasonUpdate',
+      cmd = 'Mason',
    },
    {'williamboman/mason-lspconfig.nvim'}, -- Optional
    -- Autocompletion
@@ -18,6 +20,7 @@ return {
    {'saadparwaiz1/cmp_luasnip'},
    {'rafamadriz/friendly-snippets'},
 },
+build = ":LspStart",
 config = function()
    local lsp = require('lsp-zero').preset({})
    lsp.on_attach(function(client, bufnr)
