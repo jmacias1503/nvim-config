@@ -1,5 +1,4 @@
 vim.g.mapleader = " "
-
 -- Move code region
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
@@ -16,9 +15,12 @@ vim.keymap.set("n", "<leader>tn", vim.cmd.tabNext)
 vim.keymap.set("n", "<leader>nt", vim.cmd.tabnew)
 
 -- Wrapping shortcuts
-vim.keymap.set("n", "<leader>yw", ":set wrap")
-vim.keymap.set("n", "<leader>nw", ":set nowrap")
+vim.keymap.set("n", "<leader>yw", ":set wrap<CR>")
+vim.keymap.set("n", "<leader>nw", ":set nowrap<CR>")
 
 -- Spell checking (on the go)
 vim.keymap.set({"n", "i"}, "<C-l>", [[<Esc>[s 1z= A]])
-vim.keymap.set("n","<leader>ns", ":set spelllang=")
+vim.keymap.set("n","<leader>ns", ":set spelllang=<CR>")
+
+-- Starting Lsp corrections
+vim.keymap.set("n", "<leader><Space>", ":LspStart<CR>")

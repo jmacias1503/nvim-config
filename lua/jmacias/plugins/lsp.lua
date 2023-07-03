@@ -19,8 +19,13 @@ return {
    {'hrsh7th/cmp-buffer'},
    {'saadparwaiz1/cmp_luasnip'},
    {'rafamadriz/friendly-snippets'},
+   {
+      'windwp/nvim-autopairs',
+      config = function ()
+         require("nvim-autopairs").setup{}
+      end,
+   },
 },
-build = ":LspStart",
 config = function()
    local lsp = require('lsp-zero').preset({})
    lsp.on_attach(function(client, bufnr)

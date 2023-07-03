@@ -1,4 +1,4 @@
 return {
    'tpope/vim-surround',
-   keys = { {"S"}, {"v"}, {"V"}, {"<Ctrl-v"}  }
+   keys = { {"S"}, {"v"}, {"V"}, {"<C-v>"}  }
 }
