@@ -11,6 +11,6 @@ return {
          org_archive_location = '/home/jmacias8075/Documents/Second Brain/Notas/archive.org',
 		}
 	end,
-   ft = "org",
+   ft = {"org", "markdown"},
    keys = { {"<leader>oa"}, {"<leader>oc"} },
 }
